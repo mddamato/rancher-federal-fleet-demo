@@ -9,7 +9,7 @@ helm:
       SKIP_ERRORS: true
     ingress:
       hosts:
-        - host: sslip.io
+        - host: fleet-demo.mdd-lb.tomatodamato.com
           paths:
             - path: /
               pathType: ImplementationSpecific
